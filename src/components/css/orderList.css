@@ -1,0 +1,17 @@
+.order_header,.order_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+.order_grid{
+    background-color: white;
+    color: black;
+}
+.order_grid:focus{
+    background-color: antiquewhite;
+}
+.add_order_link a{
+    color: white;
+}
